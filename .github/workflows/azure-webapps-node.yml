@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: nodeapp-nandha    # application's name
+  AZURE_WEBAPP_NAME: nodejs-nandha    # application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'       # path to your web app project
   NODE_VERSION: '20.x'                 # node version to use
 
